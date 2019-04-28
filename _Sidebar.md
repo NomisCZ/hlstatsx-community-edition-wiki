@@ -28,4 +28,3 @@
 
 *  [**Frequently Asked Questions**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Frequently-Asked-Questions)
 *  [**Alliedmodders threads**](https://forums.alliedmods.net/forumdisplay.php?f=156)
-***
