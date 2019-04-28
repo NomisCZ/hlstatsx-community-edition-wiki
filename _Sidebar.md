@@ -1,6 +1,6 @@
 #### Content
 
-* [**General**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
+* [**General**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki)
 * [**Requirements**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
 * [**Installation**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
    * [Getting Started](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
