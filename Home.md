@@ -1,22 +1,17 @@
-# Welcome to HLStatsX Wiki
+# Welcome
+Welcome to the wiki for HLStatsX: Community Edition, more commonly known as HLXCE. HLXCE is an open-source project which accepts log files in the HL Log Standard format, stores them in a MySQL database and then provides in-game and web-based ranking statistics. HLXCE utilizes many standard technologies available on many shared hosting platforms which gives all communities the ability to provide statistics for their players.
 
-## Content
-1. [**General**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-2. [**Requirements**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-3. [**Installation**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-   * Getting Started
-   * Database
-   * Website
-   * Daemon
-     * Linux
-     * Windows
-4. [**Running daemon**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-   * Commands
-   * CRON / Service
-   * Logs
-5. [**Configure HLStatsX**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-6. [**Configure Game server**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-7. [**Troubleshooting**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
+If you are looking for additional assistance, check [AlliedModders HLStatsX section](https://forums.alliedmods.net/forumdisplay.php?f=156).
+
+
+## 🚀Getting Started
+- [**Requirements**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
+- [**Installation**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
+
+## 📚 User Documentation
+- [**Configure HLStatsX**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
+- [**Configure Game server**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
+- [**Troubleshooting**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
 
 > **Note:** This **message** is test.
 👍 
