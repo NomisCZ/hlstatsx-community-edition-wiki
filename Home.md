@@ -5,7 +5,7 @@ If you are looking for additional assistance, check [AlliedModders HLStatsX sect
 
 ---
 
-<h3 align="center">⚠️ We are currently working on documentation, so be patient. ⚠️</h3>
+<h3 align="center">⚠️ I'm currently working on documentation, so be patient. ⚠️</h3>
 
 ---
 
