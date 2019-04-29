@@ -3,6 +3,11 @@ Welcome to the wiki for HLStatsX: Community Edition, more commonly known as HLXC
 
 If you are looking for additional assistance, check [AlliedModders HLStatsX section](https://forums.alliedmods.net/forumdisplay.php?f=156).
 
+---
+
+<h3 align="center">⚠️ Currently we are working on documentation, so be patient. ⚠️</h3>
+
+---
 
 ## 🚀Getting Started
 - [**Requirements**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
