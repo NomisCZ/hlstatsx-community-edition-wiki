@@ -100,4 +100,4 @@ perl hlstats-awards.pl
 
 ## 📃 Logs
 
-🚧 Working on it ... 🚧
+🚧 Work in progress ... 🚧
