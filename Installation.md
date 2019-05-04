@@ -23,83 +23,83 @@
 **1.1. Install build-essential (make)** ⚠️ (Without this package you won't be able to build & install Perl packages!)
 
 * Ubuntu/Debian:
-```
-$ sudo apt install build-essential
-$ sudo apt install libssl-dev
-$ sudo apt install zlib1g-dev
+```console
+root@vm:~$ apt install build-essential
+root@vm:~$ apt install libssl-dev
+root@vm:~$ apt install zlib1g-dev
 ```
 * CentOS:
-```
-$ sudo yum groupinstall 'Development Tools'
-$ sudo yum install openssl-devel
-$ sudo yum install zlib-devel
+```console
+root@vm:~$ yum groupinstall 'Development Tools'
+root@vm:~$ yum install openssl-devel
+root@vm:~$ yum install zlib-devel
 ```
 
 **1.2. Install Perl MySQL**
 
 * Ubuntu/Debian:
-```
-$ sudo apt install libdbd-mysql-perl
+```console
+root@vm:~$ apt install libdbd-mysql-perl
 ```
 * CentOS:
-```
-$ sudo yum install perl-DBD-MySQL
+```console
+root@vm:~$ yum install perl-DBD-MySQL
 ```
 
 **1.3. Install OpenSSL**
 
 * Ubuntu/Debian:
-```
-$ sudo apt install openssl
+```console
+root@vm:~$ apt install openssl
 ```
 * CentOS:
-```
-$ sudo yum install openssl
+```console
+root@vm:~$ yum install openssl
 ```
 
 **1.4. Install unzip**
 
 * Ubuntu/Debian:
-```
-$ sudo apt install unzip
+```console
+root@vm:~$ apt install unzip
 ```
 * CentOS:
-```
-$ sudo yum install unzip
+```console
+root@vm:~$ yum install unzip
 ```
 
 **1.5. Install Perl packages**
 
 **1.5.1. Open Perl package manager**
-```
-$ perl -MCPAN -e shell
-$ type yes (first run only)
+```console
+root@vm:~$ perl -MCPAN -e shell
+cpan> type yes (first run only)
 ```
 
 **1.5.2. Install GeoIP2::Database::Reader package**
-```
+```console
 cpan> install GeoIP2::Database::Reader
 ```
 
 **1.5.2. Install Syntax::Keyword::Try package**
-```
+```console
 cpan> install Syntax::Keyword::Try
 ```
 ### ✔️ 2. Installation
 
 **2.1. Download latest HLStatsX from repository and extract files**
 
-```
-$ wget https://github.com/NomisCZ/hlstatsx-community-edition/archive/master.zip
-$ unzip master.zip
+```console
+user@vm:~$ wget https://github.com/NomisCZ/hlstatsx-community-edition/archive/master.zip
+user@vm:~$ unzip master.zip
 ```
 
 **2.2. Prepare enviroment**
 
-```
-$ mv hlstatsx-community-edition-master/scripts ./
-$ rm -R hlstatsx-community-edition-master master.zip
-$ chmod +x hlstats-awards.pl hlstats.pl hlstats-resolve.pl run_hlstats
+```console
+user@vm:~$ mv hlstatsx-community-edition-master/scripts ./
+user@vm:~$ rm -R hlstatsx-community-edition-master master.zip
+user@vm:~$ chmod +x hlstats-awards.pl hlstats.pl hlstats-resolve.pl run_hlstats
 ```
 
 **2.3. Prepare config**
@@ -107,10 +107,10 @@ $ chmod +x hlstats-awards.pl hlstats.pl hlstats-resolve.pl run_hlstats
 
 **2.4. Prepare GeoIP2** _(optional)_
 
-```
-$ cd GeoLiteCity
-$ chmod +x install_binary.sh
-$ ./install_binary.sh
+```console
+user@vm:~$ cd GeoLiteCity
+user@vm:~$ chmod +x install_binary.sh
+user@vm:~$ ./install_binary.sh
 ```
 
 ***
@@ -125,23 +125,23 @@ $ ./install_binary.sh
 
 **1.2.1. Open Perl package manager**
 * Open CMD as Administrator (`Start -> CMD -> Right click on it -> Run as administrator`)
-```
+```console
 C:\WINDOWS\system32> ppm
 ```
 
 **1.2.2. Install DBI / DBD-mysql packages**
-```
+```console
 cpan> install DBI
 cpan> install DBD-mysql
 ```
 
 **1.2.3. Install GeoIP2::Database::Reader package**
-```
+```console
 cpan> install GeoIP2::Database::Reader
 ```
 
 **1.2.4. Install Syntax::Keyword::Try package**
-```
+```console
 cpan> install Syntax::Keyword::Try
 ```
 
