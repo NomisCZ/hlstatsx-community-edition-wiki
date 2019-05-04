@@ -9,9 +9,9 @@ If you are looking for additional assistance, check [AlliedModders HLStatsX sect
 ---
 
 ## 🚀Getting Started
-- [**Requirements**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-- [**Installation**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-- [**Running Daemon**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
+- [**Requirements**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Requirements)
+- [**Installation**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Installation)
+- [**Running Daemon**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Running-Daemon)
 
 ## 📚 User Documentation
 - [**Configure HLStatsX**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
