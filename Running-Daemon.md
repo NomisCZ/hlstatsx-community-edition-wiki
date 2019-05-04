@@ -72,6 +72,8 @@ If daemon is running as a service, check if service is running.
 0 0 * * * find <your_daemon_directory>/logs -type f -mtime +14 -exec rm -rf {} \ >/dev/null 2>&1
 ```
 
+***
+
 ### ⭕️ Windows
 ### 🅰️ NSSM/FireDaemon to run Daemon as service (check if the daemon is running, auto restart).
 **1.** Create **.bat** file, eg. **start_hlstats.bat**
