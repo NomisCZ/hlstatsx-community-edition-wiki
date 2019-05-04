@@ -57,8 +57,8 @@ If daemon is running as a service, check if service is running.
 ## ⌚️ CRON / Service
 
 ### ⭕️ Linux
-Use CRON for auto restart daemon, generate awards & clenup.
-```
+### 🅰️ CRON for auto restart daemon, generate awards & clenup
+```bash
 # Check if daemon running (every 30 minutes)
 */30 * * * * cd <your_daemon_directory> && ./run_hlstats start >/dev/null 2>&1
 
@@ -73,8 +73,27 @@ Use CRON for auto restart daemon, generate awards & clenup.
 ```
 
 ### ⭕️ Windows
-Use eg. `NSSM, FireDaemon` to run Daemon as service (check if the daemon is running, auto restart).
+### 🅰️ NSSM/FireDaemon to run Daemon as service (check if the daemon is running, auto restart).
+**1.1.** Create **.bat** file, eg. **start_hlstats.bat**
+```bat
+CD <your_daemon_directory>
+perl hlstats.pl
+```
 
-Use `Windows Task Scheduler` for generate awards & clenup. 
+**1.2.** Setup service in FireDaemon or NSSM
+* https://kb.firedaemon.com/support/solutions/articles/4000087190-batch-file
+* https://nssm.cc/usage
+
+
+### 🅱️ Windows Task Scheduler for generate awards & clenup.
+
+**2.1.** Create **.bat** file, eg. **auto_hlstats.bat**
+```bat
+CD <your_daemon_directory>
+perl hlstats-awards.pl
+```
+
+**2.2.** Setup schedule task
+* https://stackoverflow.com/a/13173752
 
 ## 📃 Logs
