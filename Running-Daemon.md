@@ -1,5 +1,5 @@
 ## 💡 Commands
-### ⭕️ Linux
+### 👉 Linux
 **1. Start**
 ```console
 user@vm:~$ ./run_hlstats start
@@ -22,7 +22,7 @@ user@vm:~$ ./run_hlstats status
 
 ***
 
-### ⭕️ Windows
+### 👉 Windows
 
 **1. Start**
 
@@ -56,7 +56,7 @@ If daemon is running as a service, check if service is running.
 
 ## ⌚️ CRON / Service
 
-### ⭕️ Linux
+### 👉 Linux
 ### 🅰️ CRON for auto restart daemon, generate awards & cleanup
 ```bash
 # Check if daemon running (every 30 minutes)
@@ -74,7 +74,7 @@ If daemon is running as a service, check if service is running.
 
 ***
 
-### ⭕️ Windows
+### 👉 Windows
 ### 🅰️ NSSM/FireDaemon to run Daemon as service (check if the daemon is running, auto restart).
 **1.** Create **.bat** file, eg. **start_hlstats.bat**
 ```bat
