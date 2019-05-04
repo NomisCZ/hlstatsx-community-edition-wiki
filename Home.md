@@ -4,7 +4,7 @@ If you are looking for additional assistance, check [AlliedModders HLStatsX sect
 
 ---
 
-<h3 align="center">⚠️ I'm currently working on documentation, so be patient. ⚠️</h3>
+<h3 align="center">🚧 Work in progress 🚧</h3>
 
 ---
 
@@ -14,8 +14,8 @@ If you are looking for additional assistance, check [AlliedModders HLStatsX sect
 - [**Running Daemon**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Running-Daemon)
 
 ## 📚 User Documentation
-- [**Configure HLStatsX**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Configure#hlstatsx)
-- [**Configure Game server**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Configure#game-server)
-- [**Troubleshooting**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Troubleshooting)
+- [**Configure HLStatsX**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Configure#hlstatsx) 🚧
+- [**Configure Game server**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Configure#game-server) 🚧
+- [**Troubleshooting**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Troubleshooting) 🚧
 
 
