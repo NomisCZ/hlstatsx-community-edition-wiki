@@ -18,7 +18,7 @@
 
 ## ⚡️ Daemon
 ### 👉 Linux
-### ✔️ 1. Prerequisites
+### 1. Prerequisites
 
 **1.1. Install build-essential (make)** ⚠️ (Without this package you won't be able to build & install Perl packages!)
 
@@ -85,7 +85,7 @@ cpan> install GeoIP2::Database::Reader
 ```console
 cpan> install Syntax::Keyword::Try
 ```
-### ✔️ 2. Installation
+### 2. Installation
 
 **2.1. Download latest HLStatsX from repository and extract files**
 
@@ -116,7 +116,7 @@ user@vm:~$ ./install_binary.sh
 ***
 
 ### 👉 Windows
-### ✔️ 1. Prerequisites
+### 1. Prerequisites
 
 **1.1. Install ActivePerl** ⚠️ (Without this software you won't be able to run daemon!)
 * https://www.activestate.com/products/activeperl/downloads/
@@ -145,7 +145,7 @@ cpan> install GeoIP2::Database::Reader
 cpan> install Syntax::Keyword::Try
 ```
 
-### ✔️ 2. Installation
+### 2. Installation
 
 **2.1. Download latest HLStatsX from repository and extract files**
 * https://github.com/NomisCZ/hlstatsx-community-edition/archive/master.zip
