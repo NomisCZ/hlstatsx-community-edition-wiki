@@ -17,7 +17,7 @@
 3. Remove **updater** directory
 
 ## ⚡️ Daemon
-### ⭕️ Linux
+### 👉 Linux
 ### ✔️ 1. Prerequisites
 
 **1.1. Install build-essential (make)** ⚠️ (Without this package you won't be able to build & install Perl packages!)
@@ -115,7 +115,7 @@ user@vm:~$ ./install_binary.sh
 
 ***
 
-### ⭕️ Windows
+### 👉 Windows
 ### ✔️ 1. Prerequisites
 
 **1.1. Install ActivePerl** ⚠️ (Without this software you won't be able to run daemon!)
