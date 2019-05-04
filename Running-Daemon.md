@@ -57,7 +57,7 @@ If daemon is running as a service, check if service is running.
 ## ⌚️ CRON / Service
 
 ### ⭕️ Linux
-### 🅰️ CRON for auto restart daemon, generate awards & clenup
+### 🅰️ CRON for auto restart daemon, generate awards & cleanup
 ```bash
 # Check if daemon running (every 30 minutes)
 */30 * * * * cd <your_daemon_directory> && ./run_hlstats start >/dev/null 2>&1
@@ -87,7 +87,7 @@ perl hlstats.pl
 * https://nssm.cc/usage
 
 
-### 🅱️ Windows Task Scheduler for generate awards & clenup.
+### 🅱️ Windows Task Scheduler for generate awards & cleanup.
 
 **1.** Create **.bat** file, eg. **auto_hlstats.bat**
 ```bat
