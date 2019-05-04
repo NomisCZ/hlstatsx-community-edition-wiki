@@ -11,7 +11,7 @@
      * [Windows](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Installation#%EF%B8%8F-windows)
 * [**Running daemon**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Running-Daemon)
    * [Commands](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Running-Daemon#commands)
-   * [CRON / Service](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Running-Daemon#cron--service)
+   * [CRON / Service](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Running-Daemon#%EF%B8%8F-cron--service)
    * [Logs](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Running-Daemon#logs)
 * [**Configure**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Configure)
    * [HLStatsX](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Configure#hlstatsx)
