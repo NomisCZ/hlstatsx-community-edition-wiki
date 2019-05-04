@@ -1,23 +1,23 @@
 ## 💡 Commands
 ### ⭕️ Linux
 **1. Start**
-```
-./run_hlstats start
+```console
+user@vm:~$ ./run_hlstats start
 ```
 
 **2. Stop**
-```
-./run_hlstats stop
+```console
+user@vm:~$ ./run_hlstats stop
 ```
 
 **3. Restart**
-```
-./run_hlstats restart
+```console
+user@vm:~$ /run_hlstats restart
 ```
 
 **4. Status**
-```
-./run_hlstats status
+```console
+user@vm:~$ ./run_hlstats status
 ```
 
 ***
@@ -26,8 +26,8 @@
 
 **1. Start**
 
-```
-perl hlstats.pl
+```console
+C:\WINDOWS\system32> perl hlstats.pl
 If daemon is running as a service, start the service.
 ```
 
