@@ -155,5 +155,5 @@ cpan> install Syntax::Keyword::Try
 * Edit **hlstats.conf** in your favourite editor (`eg. Notepad++`) and fill `DBHost, DBUsername, DBPassword, DBName`
 
 **2.4. Prepare GeoIP2** _(optional)_
-* Download latest database: https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz
+* Download latest database [here](https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz)
 * Open downloaded **.tar.gz** file (`eg. in WinRAR`) and copy **GeoLite2-City.mmdb** to **scripts/GeoLiteCity**
