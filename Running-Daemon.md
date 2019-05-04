@@ -74,26 +74,26 @@ If daemon is running as a service, check if service is running.
 
 ### ⭕️ Windows
 ### 🅰️ NSSM/FireDaemon to run Daemon as service (check if the daemon is running, auto restart).
-**1.1.** Create **.bat** file, eg. **start_hlstats.bat**
+**1.** Create **.bat** file, eg. **start_hlstats.bat**
 ```bat
 CD <your_daemon_directory>
 perl hlstats.pl
 ```
 
-**1.2.** Setup service in FireDaemon or NSSM
+**2.** Setup service in FireDaemon or NSSM
 * https://kb.firedaemon.com/support/solutions/articles/4000087190-batch-file
 * https://nssm.cc/usage
 
 
 ### 🅱️ Windows Task Scheduler for generate awards & clenup.
 
-**2.1.** Create **.bat** file, eg. **auto_hlstats.bat**
+**1.** Create **.bat** file, eg. **auto_hlstats.bat**
 ```bat
 CD <your_daemon_directory>
 perl hlstats-awards.pl
 ```
 
-**2.2.** Setup schedule task
+**2.** Setup schedule task
 * https://stackoverflow.com/a/13173752
 
 ## 📃 Logs
