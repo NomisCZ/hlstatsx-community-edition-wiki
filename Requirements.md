@@ -9,7 +9,7 @@
   * MySQLi 
 ## ⚡️ Daemon
 
-### ⭕️ Linux
+### 👉 Linux
 * Perl 5
 * Perl packages
   * GeoIP2::Database::Reader
@@ -24,7 +24,7 @@
 
 ***
 
-### ⭕️ Windows
+### 👉 Windows
 * ActivePerl
 * Perl packages
   * DBI
