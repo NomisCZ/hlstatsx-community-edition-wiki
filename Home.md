@@ -14,12 +14,8 @@ If you are looking for additional assistance, check [AlliedModders HLStatsX sect
 - [**Running Daemon**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Running-Daemon)
 
 ## 📚 User Documentation
-- [**Configure HLStatsX**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-- [**Configure Game server**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-- [**Troubleshooting**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/general)
-
-> **Note:** This **message** is test.
-👍 
-<kbd>CTRL+C</kbd>
+- [**Configure HLStatsX**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Configure#hlstatsx)
+- [**Configure Game server**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Configure#game-server)
+- [**Troubleshooting**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Troubleshooting)
 
 
