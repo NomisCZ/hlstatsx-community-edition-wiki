@@ -21,7 +21,7 @@
 ***
 
 *  [**Download**](https://github.com/NomisCZ/hlstatsx-community-edition/archive/master.zip)
-*  [**Installation**](https://github.com/NomisCZ/wiki/Installation)
+*  [**Installation**](https://github.com/NomisCZ/hlstatsx-community-edition/wiki/Installation)
 *  [**Changelog**](https://github.com/NomisCZ/blob/master/CHANGELOG.md)
 
 ***
