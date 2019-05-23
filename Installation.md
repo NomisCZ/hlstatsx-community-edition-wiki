@@ -104,6 +104,7 @@ user@vm:~$ unzip master.zip
 ```console
 user@vm:~$ mv hlstatsx-community-edition-master/scripts ./
 user@vm:~$ rm -R hlstatsx-community-edition-master master.zip
+user@vm:~$ cd scripts
 user@vm:~$ chmod +x hlstats-awards.pl hlstats.pl hlstats-resolve.pl run_hlstats
 ```
 
