@@ -12,6 +12,7 @@
 ### 👉 Linux
 * Perl 5
 * Perl packages
+  * MaxMind::DB::Reader
   * GeoIP2::Database::Reader
   * Syntax::Keyword::Try
 * Linux packages
@@ -29,6 +30,7 @@
 * Perl packages
   * DBI
   * DBD::mysql
+  * MaxMind::DB::Reader
   * GeoIP2::Database::Reader
   * Syntax::Keyword::Try
 > Other packages that are required to install are individual.
