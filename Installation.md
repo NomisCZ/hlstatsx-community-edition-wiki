@@ -76,12 +76,17 @@ root@vm:~$ perl -MCPAN -e shell
 cpan> type yes (first run only)
 ```
 
-**1.5.2. Install GeoIP2::Database::Reader package**
+**1.5.2. Install MaxMind::DB::Reader package**
+```console
+cpan> install MaxMind::DB::Reader
+```
+
+**1.5.3. Install GeoIP2::Database::Reader package**
 ```console
 cpan> install GeoIP2::Database::Reader
 ```
 
-**1.5.2. Install Syntax::Keyword::Try package**
+**1.5.4. Install Syntax::Keyword::Try package**
 ```console
 cpan> install Syntax::Keyword::Try
 ```
@@ -135,12 +140,17 @@ cpan> install DBI
 cpan> install DBD-mysql
 ```
 
-**1.2.3. Install GeoIP2::Database::Reader package**
+**1.2.3. Install MaxMind::DB::Reader package**
+```console
+cpan> install MaxMind::DB::Reader
+```
+
+**1.2.4. Install GeoIP2::Database::Reader package**
 ```console
 cpan> install GeoIP2::Database::Reader
 ```
 
-**1.2.4. Install Syntax::Keyword::Try package**
+**1.2.5. Install Syntax::Keyword::Try package**
 ```console
 cpan> install Syntax::Keyword::Try
 ```
