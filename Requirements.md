@@ -28,9 +28,15 @@
 ### 👉 Windows
 * ActivePerl
 * Perl packages
-  * DBI
-  * DBD::mysql
-  * MaxMind::DB::Reader
-  * GeoIP2::Database::Reader
-  * Syntax::Keyword::Try
-> Other packages that are required to install are individual.
+  * **DBI** - Database independent interface for Perl
+  * **DBD-mysql** - A MySQL driver for the Perl5 Database Interface (DBI)
+  * **Throwable** - a role for classes that can be thrown
+  * **MaxMind-DB-Reader** - Read MaxMind DB files and look up IP addresses
+  * **MaxMind-DB-Common** - Code shared by the MaxMind DB reader and writer modules
+  * **Data-IEEE754** - Pack and unpack big-endian IEEE754 floats and doubles
+  * **GeoIP2** - Perl API for MaxMind's GeoIP2 web services and databases
+  * **Data-Validate-IP** - IPv4 and IPv6 validation methods
+  * **NetAddr-IP** - Manages IPv4 and IPv6 addresses and subnets
+  * **Syntax-Keyword-Try** - a C<try/catch/finally> syntax for perl
+
+ Other packages that are required to install are individual.
