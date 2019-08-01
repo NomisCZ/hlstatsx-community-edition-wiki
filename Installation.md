@@ -125,7 +125,7 @@ user@vm:~$ ./install_binary.sh
 ### 1. Prerequisites
 
 **1.1. Install ActivePerl** ⚠️ (Without this software you won't be able to run daemon!)
-* ⚠️ **Use only version <= 5.2.4. Newer version no longer included Perl Package Manager and some packages are incompatible.**
+* ⚠️ **Use only version <= 5.24.x. Newer version no longer included Perl Package Manager and some packages are incompatible.**
 
 * ActiveState platform (registration needed): https://platform.activestate.com/ActiveState/ActivePerl-5.24/auto-fork
 * If you don't want to register on their boring ActiveState plaform (totally useless): https://github.com/NomisCZ/hlstatsx-community-edition/raw/master/ActivePerl/ActivePerl-5.24.3.2404-MSWin32-x64-404865.exe
