@@ -26,7 +26,7 @@
 ***
 
 ### 👉 Windows
-* ActivePerl
+* ActivePerl - ⚠️ Use only version <= 5.24.x. Newer version no longer included Perl Package Manager and some packages are incompatible.
 * Perl packages
   * **DBI** - Database independent interface for Perl
   * **DBD-mysql** - A MySQL driver for the Perl5 Database Interface (DBI)
