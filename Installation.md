@@ -125,36 +125,36 @@ user@vm:~$ ./install_binary.sh
 ### 1. Prerequisites
 
 **1.1. Install ActivePerl** ⚠️ (Without this software you won't be able to run daemon!)
-* https://www.activestate.com/products/activeperl/downloads/
+* ⚠️ **Use only version <= 5.2.4. Newer version no longer included Perl Package Manager and some packages are incompatible.**
+
+* ActiveState platform (registration needed): https://platform.activestate.com/ActiveState/ActivePerl-5.24/auto-fork
+* If you don't want to register on their boring ActiveState plaform (totally useless): https://github.com/NomisCZ/hlstatsx-community-edition/raw/master/ActivePerl/ActivePerl-5.24.3.2404-MSWin32-x64-404865.exe
 
 **1.2. Install Perl packages**
 
 **1.2.1. Open Perl package manager**
-* Open CMD as Administrator (`Start -> CMD -> Right click on it -> Run as administrator`)
+* Open CMD as Administrator (`Start -> CMD -> Right click on it -> Run as administrator` OR use PowerShell)
 ```console
 C:\WINDOWS\system32> ppm
 ```
+* Switch view to "All packages"
+![](https://i.imgur.com/SnNfhM8.png)
 
-**1.2.2. Install DBI / DBD-mysql packages**
-```console
-cpan> install DBI
-cpan> install DBD-mysql
-```
-
-**1.2.3. Install MaxMind::DB::Reader package**
-```console
-cpan> install MaxMind::DB::Reader
-```
-
-**1.2.4. Install GeoIP2::Database::Reader package**
-```console
-cpan> install GeoIP2::Database::Reader
-```
-
-**1.2.5. Install Syntax::Keyword::Try package**
-```console
-cpan> install Syntax::Keyword::Try
-```
+**1.2.2. Install packages**
+* Type name of the package to the search bar, then right click on the package and click on Install.
+![](https://i.imgur.com/4Kq8VBO.png)
+* After you have selected all packages listed below click on the green arrow (or <kbd>Ctrl+Enter</kbd>)
+![](https://i.imgur.com/oD78D8f.png)
+* **DBI** - Database independent interface for Perl
+* **DBD-mysql** - A MySQL driver for the Perl5 Database Interface (DBI)
+* **Throwable** - a role for classes that can be thrown
+* **MaxMind-DB-Reader** - Read MaxMind DB files and look up IP addresses
+* **MaxMind-DB-Common** - Code shared by the MaxMind DB reader and writer modules
+* **Data-IEEE754** - Pack and unpack big-endian IEEE754 floats and doubles
+* **GeoIP2** - Perl API for MaxMind's GeoIP2 web services and databases
+* **Data-Validate-IP** - IPv4 and IPv6 validation methods
+* **NetAddr-IP** - Manages IPv4 and IPv6 addresses and subnets
+* **Syntax-Keyword-Try** - a C<try/catch/finally> syntax for perl
 
 ### 2. Installation
 
