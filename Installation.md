@@ -154,6 +154,10 @@ C:\WINDOWS\system32> ppm
 * **GeoIP2** - Perl API for MaxMind's GeoIP2 web services and databases
 * **Data-Validate-IP** - IPv4 and IPv6 validation methods
 * **NetAddr-IP** - Manages IPv4 and IPv6 addresses and subnets
+* **Moo** - Minimalist Object Orientation (with Moose compatibility)
+* **MooX** - Using Moo and MooX:: packages the most lazy way
+* **MooX-StrictConstructor** - Make your Moo-based object constructors blow up on unknown attributes.
+* **List-AllUtils** - Combines List::Util, List::SomeUtils and List::UtilsBy in one bite-sized package
 * **Syntax-Keyword-Try** - a C<try/catch/finally> syntax for perl
 
 ### 2. Installation
