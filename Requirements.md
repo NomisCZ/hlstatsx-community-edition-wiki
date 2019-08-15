@@ -7,7 +7,8 @@
 * PHP Extensions
   * Curl
   * MySQLi
-  * XML 
+  * XML
+  * GD
 ## ⚡️ Daemon
 
 ### 👉 Linux
