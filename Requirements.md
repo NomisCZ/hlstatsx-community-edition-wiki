@@ -6,7 +6,8 @@
 * PHP 5.6+ (7.x recommended)
 * PHP Extensions
   * Curl
-  * MySQLi 
+  * MySQLi
+  * XML 
 ## ⚡️ Daemon
 
 ### 👉 Linux
