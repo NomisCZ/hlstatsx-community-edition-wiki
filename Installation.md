@@ -159,7 +159,7 @@ C:\WINDOWS\system32> ppm
 * **MooX-StrictConstructor** - Make your Moo-based object constructors blow up on unknown attributes.
 * **List-AllUtils** - Combines List::Util, List::SomeUtils and List::UtilsBy in one bite-sized package
 * **Syntax-Keyword-Try** - a C<try/catch/finally> syntax for perl
-
+* **Encode** - character encodings in Perl
 ### 2. Installation
 
 **2.1. Download latest HLStatsX from repository and extract files**
