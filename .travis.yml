@@ -1,0 +1,15 @@
+script:
+- |-
+  git config user.name "NomisCZ"
+  git config user.email "nomiscz@outlook.com"
+  git remote remove origin
+  git remote add origin https://$GITHUB_API_KEY@github.com/NomisCZ/hlstatsx-community-edition-wiki.git > /dev/null 2>&1
+  git remote add upstream https://$GITHUB_API_KEY@github.com/NomisCZ/hlstatsx-community-edition.wiki.git > /dev/null 2>&1
+  git fetch origin
+  git fetch upstream
+  git merge upstream/master --no-edit
+  git push origin HEAD:master > /dev/null 2>&1
+  git push upstream HEAD:master > /dev/null 2>&1
+env:
+  matrix:
+    secure: qKsZo0di6//30e6Ve9sAvfvKMtgVAP+EtpfLjXEt+m+MfbiGexBfHfegbHRvM22P4lJsb2w3cRHtBhVA2iPVktrtbd87YJByZaAhzc7xkkxLxELt4UICYCFIvh2s1e7fpCxuVWVNKDHVG5YLY+M1scDgvMfBkAPe/DGTCQzdpgU38B3BUm8qLxjt3KryjhQrzQUF/mq9d8XDrL3t6EVI2zF9y8j1eFLOrEos7vl4Ic7qdUSC4hYzV3069j5pR9pUSIPBjdNoUNs9WdLiVTbuMIwRB061WXf8AUY5v+WTU9cF0Q5d7mL0bHyv7QYcXPn3p8p3sixqE+4K5xgonTf//Pj8D6OQgd9UROxwwk8Fbe2QGqNLXbEl36Zq9cGMUfgxVgixjceodw/q8dVE29uNVvNoK0x0U76uqrOCEM/R1cyyGzqo+ibAOzX+c/l6q1SFR+mGpM1YdZgUq12ObNGLyU/VZ2eE2rRESOzNi/D7YobmGA7zuQXsPJuGXMNu2Fwz5GZY/BE0t5JUOkFpQpYFpzbsWSr1i2QRlOkxVgugL0ak42UJr7O7PHsETYmUOuE335xj/W9L1MEyPDQUzOVMwvtNXcZLtdXYdGcN4OsZ01KFPXPTsV23v4NvHkMiRgrFMmRDlRSVEMonsVyVlssASOueQaqdGNA/arc8tNnnWXw=
