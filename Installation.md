@@ -20,7 +20,8 @@
 ### 👉 Linux
 ### 1. Prerequisites
 
-**1.1. Install build-essential (make)** ⚠️ (Without this package you won't be able to build & install Perl packages!)
+**1.1. Install build-essential (make)** 
+> ⚠️ **Without this package you won't be able to build & install Perl packages!**
 
 * Ubuntu/Debian:
 ```console
@@ -112,23 +113,42 @@ user@vm:~$ chmod +x hlstats-awards.pl hlstats.pl hlstats-resolve.pl run_hlstats
 * Edit **hlstats.conf** in your favourite editor (`eg. nano hlstats.conf`) and fill `DBHost, DBUsername, DBPassword, DBName`
 
 **2.4. Prepare GeoIP2** _(optional)_
+> ⚠️**Starting December 30, 2019, we will be requiring users of our GeoLite2 databases to register for a MaxMind account and obtain a license key in order to download GeoLite2 databases**. [More information here](https://blog.maxmind.com/2019/12/18/significant-changes-to-accessing-and-using-geolite2-databases).
 
+**2.4.1. MaxMind Account**
+* Sign up for a MaxMind account (no purchase required) - https://www.maxmind.com/en/geolite2/signup
+* Check your e-mail for password create link
+* Generate new license key - https://www.maxmind.com/en/accounts/current/license-key
+
+**2.4.2. Add licence key**
 ```console
 user@vm:~$ cd GeoLiteCity
+```
+* Edit **install_binary.sh** in your favourite editor and replace `<API_KEY>` with **yours API key**
+```console
+# For support and installation notes visit http://www.hlxcommunity.com
+
+API_KEY="<YOUR_API_KEY>"
+
+# ***** NOTHING TO CONFIGURE BELOW HERE *****
+```
+**2.4.3. Run script**
+```
 user@vm:~$ chmod +x install_binary.sh
 user@vm:~$ ./install_binary.sh
 ```
-
 ***
 
 ### 👉 Windows
 ### 1. Prerequisites
 
-**1.1. Install ActivePerl** ⚠️ (Without this software you won't be able to run daemon!)
-* ⚠️ **Use only version <= 5.24.x. Newer version no longer included Perl Package Manager and some packages are incompatible.**
+**1.1. Install ActivePerl** 
+> ⚠️ **Without this software you won't be able to run daemon!**
+
+> ⚠️ **Use only version <= 5.24.x. Newer version no longer included Perl Package Manager and some packages are incompatible.**
 
 * ActiveState platform (registration needed): https://platform.activestate.com/ActiveState/ActivePerl-5.24/auto-fork
-* If you don't want to register on their boring ActiveState plaform (totally useless): https://github.com/NomisCZ/hlstatsx-community-edition/raw/master/ActivePerl/ActivePerl-5.24.3.2404-MSWin32-x64-404865.exe
+* If you don't want to register on their boring ActiveState plaform [download here](https://github.com/NomisCZ/hlstatsx-community-edition/raw/master/ActivePerl/ActivePerl-5.24.3.2404-MSWin32-x64-404865.exe).
 
 **1.2. Install Perl packages**
 
@@ -170,5 +190,13 @@ C:\WINDOWS\system32> ppm
 * Edit **hlstats.conf** in your favourite editor (`eg. Notepad++`) and fill `DBHost, DBUsername, DBPassword, DBName`
 
 **2.4. Prepare GeoIP2** _(optional)_
-* Download latest database [here](https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz)
+> ⚠️**Starting December 30, 2019, we will be requiring users of our GeoLite2 databases to register for a MaxMind account and obtain a license key in order to download GeoLite2 databases**. [More information here](https://blog.maxmind.com/2019/12/18/significant-changes-to-accessing-and-using-geolite2-databases).
+
+**2.4.1. MaxMind Account**
+* Sign up for a MaxMind account (no purchase required) - https://www.maxmind.com/en/geolite2/signup
+* Check your e-mail for password create link
+
+**2.4.2. Download latest database**
+* Download GeLite2-City - https://www.maxmind.com/en/accounts/current/geoip/downloads
+![](https://i.imgur.com/9pcSNEr.png)
 * Open downloaded **.tar.gz** file (`eg. in WinRAR`) and copy **GeoLite2-City.mmdb** to **scripts/GeoLiteCity**
